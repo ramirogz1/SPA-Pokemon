@@ -1,0 +1,16 @@
+.fondoHome {
+  background-color: brown;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+
+.fondoCard {
+  
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

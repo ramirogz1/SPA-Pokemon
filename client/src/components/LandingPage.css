@@ -1,0 +1,42 @@
+.landing {
+  background-image: url("../assets/fondoPoke.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landing h1 {
+  background-color: #fbdb4e;
+  border: solid black 5px ;
+  border-radius: 15px;
+  font-family: sans-serif;
+  
+}
+
+/* MEDIA QUERIES Tables */
+
+@media screen and (max-width:1024px) {
+
+.landing {
+  
+  text-align: center;
+}
+
+
+}
+
+@media screen and (max-width:600px) {
+
+  .landing {
+    
+    text-align: center;
+  }
+  
+  
+  }
+
+
+

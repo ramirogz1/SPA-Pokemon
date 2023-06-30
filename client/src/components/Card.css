@@ -1,0 +1,14 @@
+.card {
+  width: 15rem;
+  height: auto;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  box-shadow: 1rem 1rem 1rem;
+}
+
+.card img {
+  height: 15rem;
+  width: auto;
+  object-fit: cover;
+  background-color: yellow;
+}
