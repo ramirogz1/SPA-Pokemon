@@ -209,7 +209,7 @@ export default function Home() {
           <p>Contacto:</p>
           <p>Correo electrónico: ramirogz101@gmail.com</p>
           <p>Teléfono: (+54)93855761208</p>
-          <p> Linkedin: <a href="https://www.linkedin.com/in/ramirogonzalez94/">ramirogonzalez94</a></p>
+          <p> Linkedin: <a href="https://www.linkedin.com/in/ramirogonzalez94/" target="_blank">ramirogonzalez94</a></p>
         </div>
         <div>
           
