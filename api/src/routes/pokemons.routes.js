@@ -2,6 +2,8 @@ const { Router } = require("express");
 const getAllPokemon = require("../controllers/pokemonControllers");
 const { Pokemon, Type } = require("../db");
 //const { route } = require(".")
+const { validate: uuidValidate } = require("uuid");
+const axios = require ('axios')
 
 const router = Router();
 

@@ -1,36 +1,6 @@
  const axios = require("axios");
 const { Pokemon, Type } = require("../db");
 
-// const getApiInfo = async () => {
-//   try {
-//     const arrPokemon = [];
-//     const pokemonApi = await axios.get(
-//       "https://pokeapi.co/api/v2/pokemon?limit=20"
-//     );
-//     const pokemonUrl = pokemonApi.data.results.map((el) => el.url);
-    
-//     const pokemonDataOfficial = await pokemonUrl.map((u)=> axios.get(u))
-//     console.log(pokemonDataOfficial)
-//     for (let i = 0; i < pokemonDataOfficial.length; i++) {
-     
-//         arrPokemon.push({
-//         id: pokemonDataOfficial[i].id,
-//         name: pokemonDataOfficial[i].name,
-//         image: pokemonDataOfficial[i].sprites.other["official-artwork"].front_default,
-//         hp: pokemonDataOfficial[i].stats[0].base_stat,
-//         attack: pokemonDataOfficial[i].stats[1].base_stat,
-//         defense: pokemonDataOfficial[i].stats[2].base_stat,
-//         speed: pokemonDataOfficial[i].stats[5].base_stat,
-//         height: pokemonDataOfficial[i].height,
-//         weight: pokemonDataOfficial[i].weight,
-//       });
-//     }
-
-//     return arrPokemon;
-//   } catch (error) {
-//     console.log("error en getApiInfo", error);
-//   }
-// };
 const getApiInfo = async () => {
   try {
     const arrPokemon = [];
@@ -65,19 +35,6 @@ const getApiInfo = async () => {
   }
 };
 
-
-
-// const getDbInfo = async () => {
-//   return await Pokemon.findAll({
-//     include: {
-//       model: Type,
-//       attributes: ["name"],
-//       through: {
-//         attributes: [],
-//       },
-//     },
-//   });
-// };
 const getDbInfo = async () => {
   try {
     const infoDb = await Pokemon.findAll({
