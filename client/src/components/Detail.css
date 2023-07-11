@@ -1,0 +1,46 @@
+.containerDetail {
+  background-color: brown;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  overflow: auto;
+}
+
+.generalDetail {
+  background-color: blue;
+  text-align: center;
+  align-items: center;
+  border-radius: 3rem; 
+  text-transform: capitalize;
+  padding: 1rem 4rem;
+  margin: 1rem 5rem .5rem;
+  height: 38rem;
+}
+
+.detailImage img  {
+  
+  max-height: 300px;
+  max-width: 300px;
+  
+ 
+  
+}
+
+.detailPokemon {
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+  border-radius: 3rem;
+  padding: 1rem;
+  padding-right: 1rem;
+  margin-top: 8rem;
+
+  
+}
+
+.namePokemon {
+    background-color: pink;
+    border-radius: 5rem;
+}
+
