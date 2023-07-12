@@ -10,7 +10,7 @@ Buenas aqui le traigo una single page application(aplicacion de pagina unica) ba
 API externa
 
 ## TECNOLOGIAS USADAS : 
-# Front End
+
 - React
 - Vite
 - Node.js
