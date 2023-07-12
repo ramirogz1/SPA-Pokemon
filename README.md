@@ -4,13 +4,9 @@
 
 <img height="150" src="./pokemon.png" />
 
-## Objetivos del Proyecto
+## DESCRIPCION
 
-- Construir una App utlizando React, Redux, Node y Sequelize.
-- Afirmar y conectar los conceptos aprendidos en la carrera.
-- Aprender mejores prácticas.
-- Aprender y practicar el workflow de GIT.
-- Usar y practicar testing.
+Buenas aqui le traigo una single page application basada en Pokemon
 
 ## Horarios y Fechas
 
