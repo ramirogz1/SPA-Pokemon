@@ -1,6 +1,6 @@
 
 
-# Individual Project - Henry Pokemon
+# SPA Pokemon
 
 <img height="150" src="./pokemon.png" />
 
