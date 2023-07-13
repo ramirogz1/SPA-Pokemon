@@ -22,7 +22,7 @@ const { conn } = require('./src/db.js');
 const getTypes = require('./src/controllers/typeControllers.js')
 // Syncing all the models at once.
 conn.sync({ force: true }).then(() => {
-  server.listen(3001, async() => {
+  server.listen(process.env.PORT, async() => {
     await getTypes()
     console.log('%s listening at 3001'); // eslint-disable-line no-console
   });
