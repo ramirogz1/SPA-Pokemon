@@ -90,7 +90,7 @@ export default function Home() {
         data-bs-theme="dark"
       >
         <div className="container-fluid">
-          <Link className="navbar-brand" href="/home">
+          <Link to ="/home" className="navbar-brand" >
             POKEMON-SPA
           </Link>
           <button
