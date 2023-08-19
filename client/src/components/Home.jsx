@@ -90,9 +90,9 @@ export default function Home() {
         data-bs-theme="dark"
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="/home">
+          <Link className="navbar-brand" href="/home">
             POKEMON-SPA
-          </a>
+          </Link>
           <button
             className="navbar-toggler mb-2"
             type="button"
